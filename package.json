@@ -3,9 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-
   "homepage": "https://nelomelma.github.io/DigiTools-Platform/",
-
   "scripts": {
     "dev": "vite",
     "build": "vite build",
@@ -14,15 +12,14 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
   },
-
   "dependencies": {
+    "@tailwindcss/vite": "^4.2.2",
     "lucide-react": "^1.7.0",
     "react": "^19.2.4",
     "react-dom": "^19.2.4",
     "react-router-dom": "^7.14.0",
     "react-toastify": "^11.0.5"
   },
-
   "devDependencies": {
     "@eslint/js": "^9.39.4",
     "@types/react": "^19.2.14",
